@@ -1,0 +1,57 @@
+@media (min-width: 600px) {
+    main {
+      flex-wrap: nowrap;
+    }
+
+
+
+h1{
+    color: #AA954A;
+    font-family: 'Rubik', sans-serif;
+}
+
+p{
+    color: #848483;
+    font-family: 'Krub', sans-serif;
+}
+
+h2 {
+    color: #848483;
+    font-family: 'Krub', sans-serif;
+    }
+
+a{
+    font-family: 'Krub', sans-serif;
+    color: #f9fcfd;
+}
+
+h3{
+    color: #AA954A;
+    font-family: 'Krub', sans-serif;
+}
+
+.encabezado{
+    width: 100%;
+    background-color: #152725;
+    display: grid;
+    grid-template-rows: 1fr;
+    border: 6px;
+}
+
+
+.contenedor{
+    width: 100%;
+    background-color: #f9fcfd;
+    border: 6px;
+    display: grid;
+    grid-template-rows: repeat(2,1fr) ;
+    grid-template-columns: 500px 500px;
+    padding: 6px;
+    background-position: center;
+}
+
+.img{
+    padding: 20px ;
+    background-size: cover;
+    background-position: center;
+}
