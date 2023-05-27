@@ -1,0 +1,201 @@
+
+@media (min-width: 600px) {
+    main {
+      flex-wrap: nowrap;
+    }
+.navbar{
+  background-color: #4E4730 ;  
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: small;
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+  border-radius: 10px;
+}
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    font-weight: 800;
+    color: #927548;
+}
+.navbar-toggler{
+    color: white;
+}
+.fa-bars{
+    color: #927548;
+}
+.jumbotron{
+    background-image: url(../img/painthorse.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 600px;
+    border-radius: 0px;
+    margin-bottom: 20px;
+}
+.texttitlebanner{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 72px;
+    padding-top: 300px;
+    text-shadow: 0 0 10px rgb(95, 92, 92);
+    margin-bottom: 0;
+}
+.textbanner{
+    font-weight: 700;
+    color: white;
+    text-shadow: 0 0 10px black;
+}
+.btn{
+    background-color: #4E4730 ;  
+    font-family: 'Poppins', sans-serif;
+    color: #f9fcfd;
+}
+.btn:hover{
+    background-color: #f9fcfd;  
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #927548;
+}
+.jumbotronremates{
+    background-image: url(../img/toros.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    border-radius: 0px;
+}
+.texttitleremates{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 72px;
+    padding-top: 450px;
+    margin-left: 25px;
+    text-shadow: 0 0 10px rgb(95, 92, 92);
+}
+.jumbotronpreofertas{
+    background-image: url(../img/main-banner5.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    border-radius: 0px;
+}
+.jumbotronquienessomos{
+    background-image: url(../img/nosotros1.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    border-radius: 0px;
+}
+.jumbotroncontacto{
+    background-image: url(../img/contacto.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    border-radius: 0px;
+}
+.jumbotronhistoria{
+    background-image: url(../img/historia.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    border-radius: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.historia{
+    background-image: url(../img/historia.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+
+.rematebanner{
+    background-image: url(../img/ovejas.PNG);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+.incioprimero{
+    height: 100px;
+}
+
+h2{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    font-weight: 700;
+    padding-top: 50px;
+    text-shadow: 0 0 10px black;
+}
+
+a{
+    font-family: 'Poppins', sans-serif;
+    color: #f9fcfd;
+}h3{
+    color: white;
+    font-size: small;
+    font-family: 'Poppins', sans-serif;
+}
+
+.encabezado{
+    width: 100%;
+    background-color: #152725;
+    display: grid;
+    grid-template-rows: 1fr;
+    border: 6px;
+}
+
+
+.contenedor{
+    width: 100%;
+    background-color: #f9fcfd;
+    border: 6px;
+    display: grid;
+    grid-template-rows: repeat(2,1fr) ;
+    grid-template-columns: 500px 500px;
+    padding: 6px;
+    background-position: center;
+}
+
+.img{
+    padding: 20px ;
+    background-size: cover;
+    background-position: center;
+}
+
+.container-fluid{
+    margin-top: 25px
+
+}
+.conteiner-footer{
+    background-color: #4E4730;
+    height: 200px;
+    justify-content: center;
+}
+
+.logo-footer{
+    position: center;
+    background-size: contain;
+    background-position: center;
+    height: 60px;
+    margin-top: 25px;
+    margin-right: 25px;
+    margin-left: 25px;
+    justify-content: center;
+}
+
+.text-footer{
+    margin-top: 50px;
+    margin-left: 80px;
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+    color: #4E4730;
+    font-size: small;
+    margin-top: 50px;
+} 
